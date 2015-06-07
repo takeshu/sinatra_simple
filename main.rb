@@ -5,7 +5,7 @@ get '/' do
 end
 
 get '/hello' do
-  "Hello world"
+  "Hello world!!!!!!"
 end
 
 get '/example' do
