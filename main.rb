@@ -1,13 +1,16 @@
 require 'sinatra'
 
 get '/' do
-  erb :index
+	erb :index
 end
 
 get '/hello' do
-  "Hello world!!!!!!"
+	"Hello world!!!!!!"
 end
 
 get '/example' do
-  erb :example
+	erb :example
+end
+post '/' do
+	p params["ex_text"]
 end
